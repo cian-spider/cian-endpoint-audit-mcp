@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cian-spider/cian-endpoint-audit",
+  "title": "Cian Endpoint Audit",
+  "description": "HTTP, TLS and DNS audit of one public URL, paid per call in USDC over x402 on Base.",
+  "version": "1.0.0",
+  "websiteUrl": "https://cian-x402.netlify.app/",
+  "repository": {
+    "url": "https://github.com/cian-spider/cian-endpoint-audit-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cian-x402.netlify.app/mcp"
+    }
+  ]
+}
