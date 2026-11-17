@@ -1,5 +1,8 @@
 # Cian Endpoint Audit, MCP server
 
+[![mcptry](https://mcptry.com/badge/io.github.cian-spider/cian-endpoint-audit)](https://mcptry.com/servers/io.github.cian-spider/cian-endpoint-audit)
+
+
 A remote MCP server with one tool: `endpoint_audit`. It audits one public HTTP
 URL and returns the same JSON the x402-paid HTTP endpoint returns: final status,
 redirect chain, TLS, security headers, and the DNS records behind the host.
